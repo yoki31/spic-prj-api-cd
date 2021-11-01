@@ -8,6 +8,5 @@ var searchData=
   ['component_19',['Component',['../classspic_1_1Component.html',1,'spic']]],
   ['config_20',['Config',['../classspic_1_1Engine.html#adf721104e8dab91eb9c59899a531df51',1,'spic::Engine::Config()'],['../structspic_1_1Config.html',1,'spic::Config']]],
   ['content_21',['Content',['../classspic_1_1Text.html#aee8cb4c82693aac5e6d78cabfc9141a8',1,'spic::Text::Content() const'],['../classspic_1_1Text.html#a8730fbe3f1724d14e2098954b2cfc4e6',1,'spic::Text::Content(const std::string &amp;text)']]],
-  ['contents_22',['contents',['../classspic_1_1Scene.html#a073965b459f27d58005051e0138151a6',1,'spic::Scene']]],
-  ['cyan_23',['cyan',['../classspic_1_1Color.html#ad70f619ce2e52eb4d34e6ac455cde041',1,'spic::Color']]]
+  ['cyan_22',['cyan',['../classspic_1_1Color.html#ad70f619ce2e52eb4d34e6ac455cde041',1,'spic::Color']]]
 ];
