@@ -187,6 +187,18 @@ namespace spic {
              */
             spic::Transform& Transform();
 
+            /**
+             * The parent of this GameObject.
+             * @return A weak pointer to the parent.
+             */
+            std::weak_ptr<GameObject> Parent();
+
+            /**
+             * The parent of this GameObject.
+             * @param parent A weak pointer to the new parent
+             */
+            void Parent(std::weak_ptr<GameObject> parent);
+
             const std::string& Name() { return name; }
 
             const std::string& Tag() { return tag; }
