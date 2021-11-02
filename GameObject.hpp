@@ -209,7 +209,7 @@ namespace spic {
              * Returns a list of children in this GameObject.
              * @return A list of shared pointers to the children.
              */
-            std::vector<std::shared_ptr<GameObject>> Children() const;
+            const std::vector<std::shared_ptr<GameObject>>& Children() const;
 
             /**
              * Add a child to the children of this GameObject.
