@@ -199,6 +199,12 @@ namespace spic {
              */
             void Parent(std::weak_ptr<GameObject> parent);
 
+            /**
+             * Returns a list of children in this GameObject.
+             * @return A list of shared pointers to the children.
+             */
+            std::vector<std::shared_ptr<GameObject>> Children() const;
+
             const std::string& Name() { return name; }
 
             const std::string& Tag() { return tag; }
