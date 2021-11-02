@@ -188,6 +188,12 @@ namespace spic {
             spic::Transform& Transform();
 
             /**
+             * @brief Returns a const reference to the transform of this GameObject
+             * @return A const reference to the transform
+             */
+            const spic::Transform& Transform() const;
+
+            /**
              * The parent of this GameObject.
              * @return A weak pointer to the parent.
              */
