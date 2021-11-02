@@ -6,6 +6,6 @@ var searchData=
   ['texture_110',['Texture',['../classspic_1_1Sprite.html#a43727d8a373fa20aabee94112ee5a3ac',1,'spic::Sprite::Texture(const std::string &amp;sprite)'],['../classspic_1_1Sprite.html#a7d3bed844951e122ef8af63116b1d6f8',1,'spic::Sprite::Texture() const']]],
   ['time_111',['Time',['../classspic_1_1Time.html',1,'spic']]],
   ['timescale_112',['TimeScale',['../classspic_1_1Time.html#a9936321ffb0c032fc718a0f8b507338f',1,'spic::Time::TimeScale()'],['../classspic_1_1Time.html#a806da38f6176fd9776dcf89d9fec1e4d',1,'spic::Time::TimeScale(double newTimeScale)']]],
-  ['transform_113',['Transform',['../structspic_1_1Transform.html',1,'spic::Transform'],['../classspic_1_1GameObject.html#aa3492d120ebae709830b24e432d92dca',1,'spic::GameObject::Transform()']]],
+  ['transform_113',['Transform',['../structspic_1_1Transform.html',1,'spic::Transform'],['../classspic_1_1GameObject.html#aa3492d120ebae709830b24e432d92dca',1,'spic::GameObject::Transform()'],['../classspic_1_1GameObject.html#af2af226a8dd2660bad4d3ddaa0187bc7',1,'spic::GameObject::Transform() const']]],
   ['transparent_114',['transparent',['../classspic_1_1Color.html#ada70663e40bd0dd4acd5b23b5b457892',1,'spic::Color']]]
 ];
