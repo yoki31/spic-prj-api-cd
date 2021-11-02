@@ -211,6 +211,18 @@ namespace spic {
              */
             std::vector<std::shared_ptr<GameObject>> Children() const;
 
+            /**
+             * Add a child to the children of this GameObject.
+             * @param child the child to add.
+             */
+            void AddChild(std::shared_ptr<GameObject> child);
+
+            /**
+             * Remove a child from the children of this GameObject.
+             * @param child the child to remove.
+             */
+            void RemoveChild(std::shared_ptr<GameObject> child);
+
             const std::string& Name() { return name; }
 
             const std::string& Tag() { return tag; }
