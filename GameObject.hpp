@@ -187,6 +187,12 @@ namespace spic {
              */
             spic::Transform& Transform();
 
+            /**
+             * @brief Returns a const reference to the transform of this GameObject
+             * @return A const reference to the transform
+             */
+            const spic::Transform& Transform() const;
+
             const std::string& Name() { return name; }
 
             const std::string& Tag() { return tag; }
