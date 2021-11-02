@@ -193,6 +193,36 @@ namespace spic {
              */
             const spic::Transform& Transform() const;
 
+            /**
+             * The parent of this GameObject.
+             * @return A weak pointer to the parent.
+             */
+            std::weak_ptr<GameObject> Parent();
+
+            /**
+             * The parent of this GameObject.
+             * @param parent A weak pointer to the new parent
+             */
+            void Parent(std::weak_ptr<GameObject> parent);
+
+            /**
+             * Returns a list of children in this GameObject.
+             * @return A list of shared pointers to the children.
+             */
+            const std::vector<std::shared_ptr<GameObject>>& Children() const;
+
+            /**
+             * Add a child to the children of this GameObject.
+             * @param child the child to add.
+             */
+            void AddChild(std::shared_ptr<GameObject> child);
+
+            /**
+             * Remove a child from the children of this GameObject.
+             * @param child the child to remove.
+             */
+            void RemoveChild(std::shared_ptr<GameObject> child);
+
             const std::string& Name() { return name; }
 
             const std::string& Tag() { return tag; }
