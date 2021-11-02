@@ -8,27 +8,27 @@ namespace spic {
     /**
      * @brief A struct representing the engine configuration
      */
-    struct EngineConfig {
+    struct WindowConfig {
 
         /**
          * @brief The title of the application window
          */
-        std::string windowTitle;
+        std::string title;
 
         /**
          * @brief The desired width of the application window
          */
-        int windowWidth;
+        int width;
 
         /**
          * @brief The desired height of the application window
          */
-        int windowHeight;
+        int height;
 
         /**
          * @brief A boolean flag if the window should be fullscreen
          */
-        bool windowFullscreen;
+        bool fullscreen;
 
     };
 

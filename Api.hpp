@@ -10,7 +10,6 @@
 #include "Component.hpp"
 #include "Debug.hpp"
 #include "Engine.hpp"
-#include "EngineConfig.hpp"
 #include "GameObject.hpp"
 #include "IKeyListener.hpp"
 #include "IMouseListener.hpp"
@@ -23,3 +22,4 @@
 #include "Time.hpp"
 #include "Transform.hpp"
 #include "UIObject.hpp"
+#include "WindowConfig.hpp"
