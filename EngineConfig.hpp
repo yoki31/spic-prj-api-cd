@@ -8,7 +8,7 @@ namespace spic {
     /**
      * @brief A struct representing the engine configuration
      */
-    struct Config {
+    struct EngineConfig {
 
         /**
          * @brief The title of the application window
@@ -28,7 +28,7 @@ namespace spic {
         /**
          * @brief A boolean flag if the window should be fullscreen
          */
-        bool fullscreen;
+        bool windowFullscreen;
 
     };
 
