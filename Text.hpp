@@ -98,7 +98,7 @@ namespace spic {
              * @brief Get the color of the Text object
              * @return A reference to the color of the Text object
              */
-            const Color& TextColor();
+            const Color& TextColor() const;
 
             /**
              * @brief Set the color of the Text object
