@@ -42,6 +42,11 @@ namespace spic {
         std::shared_ptr<Scene> PeekScene() const;
         void PopScene();
         void Shutdown();
+
+        // Include "package private" methods
+#if __has_include("Engine_public.hpp")
+#include "Engine_public.hpp"
+#endif
     };
 }
 

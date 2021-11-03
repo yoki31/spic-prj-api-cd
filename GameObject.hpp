@@ -250,6 +250,11 @@ namespace spic {
 
             int Layer() { return layer; }
 
+            // Include "package private" methods
+#if __has_include("GameObject_public.hpp")
+#include "GameObject_public.hpp"
+#endif
+
         private:
             std::string name;
             std::string tag;
