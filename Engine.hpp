@@ -1,7 +1,7 @@
 #ifndef SPIC_PRJ_API_CD_ENGINE_HPP
 #define SPIC_PRJ_API_CD_ENGINE_HPP
 
-#include "Config.hpp"
+#include "EngineConfig.hpp"
 #include "Scene.hpp"
 
 #if __has_include("Engine_includes.hpp")
@@ -29,13 +29,13 @@ namespace spic {
          * @brief Initialize the engine with the given configuration.
          * @param config The engine configuration struct.
          */
-        void Init(const spic::Config& config);
+        void Init(const spic::EngineConfig& config);
 
         /**
          * @brief Get a modifiable reference to the engine configuration.
          * @return A reference to the engine configuration that you can modify.
          */
-        spic::Config& Config();
+        spic::EngineConfig& Config();
 
         void Start();
         void PushScene(const std::shared_ptr<Scene>& scene);
