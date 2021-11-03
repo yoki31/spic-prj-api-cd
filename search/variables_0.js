@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['fullscreen_265',['fullscreen',['../structspic_1_1Config.html#a17afafc0dc3f280564fccb48c2e3ec4e',1,'spic::Config']]]
+  ['fullscreen_269',['fullscreen',['../structspic_1_1WindowConfig.html#aca68ed32fff7f670774e38a0864e2fbe',1,'spic::WindowConfig']]]
 ];
