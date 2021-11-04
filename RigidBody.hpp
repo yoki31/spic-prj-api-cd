@@ -4,6 +4,10 @@
 #include "Component.hpp"
 #include "Point.hpp"
 
+#if __has_include("RigidBody_includes.hpp")
+#include "RigidBody_includes.hpp"
+#endif
+
 namespace spic {
 
     /**
@@ -72,10 +76,18 @@ namespace spic {
              */
             void GravityScale(double newGravityScale);
 
+#if __has_include("RigidBody_public.hpp")
+#include "RigidBody_public.hpp"
+#endif
+
         private:
             double mass;
             double gravityScale;
             BodyType bodyType;
+
+#if __has_include("RigidBody_private.hpp")
+#include "RigidBody_private.hpp"
+#endif
     };
 
 }
