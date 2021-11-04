@@ -36,6 +36,42 @@ namespace spic {
              */
             void AddForce(const Point& forceDirection);
 
+            /**
+             * @brief The type of this body.
+             * @return The current value.
+             */
+            BodyType Type() const;
+
+             /**
+              * @brief The type of this body.
+              * @param newBodyType The desired value.
+              */
+            void Type(BodyType newBodyType);
+
+            /**
+             * @brief The mass of this body.
+             * @return The current value.
+             */
+            double Mass() const;
+
+            /**
+             * @brief The mass of this body.
+             * @param newMass The desired value.
+             */
+            void Mass(double newMass);
+
+            /**
+             * @brief The gravity scale of this body.
+             * @return The current value.
+             */
+            double GravityScale() const;
+
+            /**
+             * @brief The gravity scale of this body.
+             * @param newMass The desired value.
+             */
+            void GravityScale(double newGravityScale);
+
         private:
             double mass;
             double gravityScale;
