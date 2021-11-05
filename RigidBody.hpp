@@ -4,6 +4,10 @@
 #include "Component.hpp"
 #include "Point.hpp"
 
+#if __has_include("RigidBody_includes.hpp")
+#include "RigidBody_includes.hpp"
+#endif
+
 namespace spic {
 
     /**
@@ -39,10 +43,60 @@ namespace spic {
              */
             void AddForce(const Point& forceDirection);
 
+            /**
+             * @brief The type of this body.
+             * @return The current value.
+             * @sharedapi
+             */
+            BodyType Type() const;
+
+             /**
+              * @brief The type of this body.
+              * @param newBodyType The desired value.
+              * @sharedapi
+              */
+            void Type(BodyType newBodyType);
+
+            /**
+             * @brief The mass of this body.
+             * @return The current value.
+             * @sharedapi
+             */
+            double Mass() const;
+
+            /**
+             * @brief The mass of this body.
+             * @param newMass The desired value.
+             * @sharedapi
+             */
+            void Mass(double newMass);
+
+            /**
+             * @brief The gravity scale of this body.
+             * @return The current value.
+             * @sharedapi
+             */
+            double GravityScale() const;
+
+            /**
+             * @brief The gravity scale of this body.
+             * @param newMass The desired value.
+             * @sharedapi
+             */
+            void GravityScale(double newGravityScale);
+
+#if __has_include("RigidBody_public.hpp")
+#include "RigidBody_public.hpp"
+#endif
+
         private:
             double mass;
             double gravityScale;
             BodyType bodyType;
+
+#if __has_include("RigidBody_private.hpp")
+#include "RigidBody_private.hpp"
+#endif
     };
 
 }

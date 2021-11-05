@@ -16,6 +16,13 @@ namespace spic {
             static double DeltaTime();
 
             /**
+             * @brief The interval in seconds from the last frame to the current one.
+             * @param newDeltaTime The new value for Delta Time.
+             * @sharedapi
+             */
+            static void DeltaTime(double newDeltaTime);
+
+            /**
              * @brief The scale at which time passes.
              * @return time scale value
              * @spicapi
