@@ -5,6 +5,7 @@ namespace spic {
 
     /**
      * @brief Class representing game time.
+     * @spicapi
      */
     class Time {
         public:
