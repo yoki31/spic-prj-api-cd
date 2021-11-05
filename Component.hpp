@@ -13,6 +13,7 @@ namespace spic {
 
     /**
      * @brief Base class for all components.
+     * @spicapi
      */
     class Component {
         public:

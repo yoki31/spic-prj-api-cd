@@ -14,6 +14,7 @@ namespace spic {
 
     /**
      * @brief A component which can play animated sequences of sprites.
+     * @spicapi
      */
     class Animator : public Component {
         public:

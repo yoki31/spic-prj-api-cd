@@ -7,6 +7,7 @@ namespace spic {
 
     /**
      * @brief A collider which represents a circular collision area.
+     * @spicapi
      */
     class CircleCollider : public Collider {
         public:

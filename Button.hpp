@@ -12,6 +12,7 @@ namespace spic {
 
     /**
      * @brief Instances of this class are clickable user interface items.
+     * @spicapi
      */
     class Button : public UIObject {
         public:

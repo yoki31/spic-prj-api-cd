@@ -5,6 +5,7 @@ namespace spic {
 
     /**
      * @brief Color represents a red-green-blue color with alpha.
+     * @spicapi
      */
     class Color {
         public:

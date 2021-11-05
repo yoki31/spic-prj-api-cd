@@ -12,6 +12,7 @@ namespace spic {
 
     /**
      * @brief Component which can play audio.
+     * @spicapi
      */
     class AudioSource : public Component {
         public:
