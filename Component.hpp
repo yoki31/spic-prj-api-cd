@@ -3,6 +3,10 @@
 
 #include <memory>
 
+#if __has_include("Component_includes.hpp")
+#include "Component_includes.hpp"
+#endif
+
 namespace spic {
 
     class GameObject;
@@ -28,21 +32,27 @@ namespace spic {
             /**
              * @brief The parent of this component
              * @param parent the current parent
+             * @sharedapi
              */
-            std::weak_ptr<spic::GameObject> GameObject() const { return _gameObject; }
+            std::weak_ptr<spic::GameObject> GameObject() const;
 
             /**
              * @brief The parent of this component
              * @param parent the new parent
+             * @sharedapi
              */
-            void GameObject(std::weak_ptr<spic::GameObject> gameObject) { _gameObject = gameObject; }
+            void GameObject(std::weak_ptr<spic::GameObject> gameObject);
 
         private:
             /**
              * @brief Active status.
+             * @spicapi
              */
             bool active;
-            std::weak_ptr<spic::GameObject> _gameObject;
+
+#if __has_include("Component_private.hpp")
+#include "Component_private.hpp"
+#endif
     };
 
 }

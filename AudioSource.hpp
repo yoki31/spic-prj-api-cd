@@ -19,6 +19,7 @@ namespace spic {
              * @brief Constructor.
              * @param audioClip The source tho the audio clip.
              * @param playOnAwake Whether the audio should start playing automatically.
+             * @sharedapi
              */
             AudioSource(const std::string& audioClip, bool playOnAwake);
 
@@ -38,33 +39,39 @@ namespace spic {
             /**
              * @brief Get the volume of the AudioSource
              * @return The volume of the AudioSource, which is a double between 0.0 and 1.0 inclusively
+             * @sharedapi
              */
             double Volume() const;
 
             /**
              * @brief Set volume of the AudioSource
              * @param newVolume The new volume level of the AudioSource
+             * @sharedapi
              */
             void Volume(double newVolume);
 
         private:
             /**
              * @brief Path to a locally stored audio file.
+             * @spicapi
              */
             std::string audioClip;
 
             /**
              * @brief When true, the component will start playing automatically.
+             * @spicapi
              */
             bool playOnAwake;
 
             /**
              * @brief When true, the audio will play indefinitely.
+             * @spicapi
              */
             bool loop;
 
             /**
              * @brief Audio volume, between 0.0 and 1.0.
+             * @spicapi
              */
             double volume;
 

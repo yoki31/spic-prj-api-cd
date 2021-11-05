@@ -17,6 +17,7 @@ namespace spic {
              * @param backgroundColor The background color of the horizon in the camera.
              * @param aspectWidth The aspect width of the camera.
              * @param aspectHeight The aspect width of the camera.
+             * @sharedapi
              */
             Camera(const Color& backgroundColor, double aspectWidth, double aspectHeight);
 

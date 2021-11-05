@@ -12,6 +12,7 @@ namespace spic {
         public:
             /**
              * @brief Constructor.
+             * @sharedapi
              */
             BoxCollider();
 
@@ -19,6 +20,7 @@ namespace spic {
              * @brief Constructor.
              * @param width The width for the box collider.
              * @param height The height for the box collider.
+             * @sharedapi
              */
             BoxCollider(double width, double height);
 

@@ -21,6 +21,7 @@ namespace spic {
              * @brief Constructor.
              * @param fps The amount of frames the animator will cycle though per second.
              * @param sprites An list of sprites to loop through.
+             * @sharedapi
              */
             Animator(int fps, const std::vector<std::shared_ptr<Sprite>>& sprites);
 
@@ -41,12 +42,14 @@ namespace spic {
             /**
              * @brief Get the frames per second of the animator
              * @return An integer representing the frames per second of the animator
+             * @sharedapi
              */
             int FPS() const;
 
             /**
              * @brief Set the new frames per second of the animator
              * @param newFps An integer representing the new frames per second of the animator
+             * @sharedapi
              */
             void FPS(int newFps);
 
@@ -56,11 +59,6 @@ namespace spic {
              * @spicapi
              */
             int fps;
-
-            /**
-             * @brief collection of Sprites to cycle through
-             */
-            std::vector<std::shared_ptr<Sprite>> sprites;
 
 #if __has_include("Animator_private.hpp")
 #include "Animator_private.hpp"
