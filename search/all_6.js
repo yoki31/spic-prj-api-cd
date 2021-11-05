@@ -15,5 +15,6 @@ var searchData=
   ['getmousebutton_53',['GetMouseButton',['../namespacespic_1_1Input.html#a9fb06e83dd52aac5d8df2675e88fe5d1',1,'spic::Input']]],
   ['getmousebuttondown_54',['GetMouseButtonDown',['../namespacespic_1_1Input.html#ab3931d781fc503f99fb2da36c2e7dbff',1,'spic::Input']]],
   ['getmousebuttonup_55',['GetMouseButtonUp',['../namespacespic_1_1Input.html#a41b9e6bb5007fa8716c5a1464d5473d3',1,'spic::Input']]],
-  ['green_56',['green',['../classspic_1_1Color.html#a74d06b658618c2533d6fdd32f7f855aa',1,'spic::Color']]]
+  ['gravityscale_56',['GravityScale',['../classspic_1_1RigidBody.html#a8f06a0320a3ab7af9dc78f6ca875fb08',1,'spic::RigidBody::GravityScale(double newGravityScale)'],['../classspic_1_1RigidBody.html#a11d226d02f2ce06ea3ccffedf31eb6f6',1,'spic::RigidBody::GravityScale() const']]],
+  ['green_57',['green',['../classspic_1_1Color.html#a74d06b658618c2533d6fdd32f7f855aa',1,'spic::Color']]]
 ];
