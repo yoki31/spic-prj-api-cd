@@ -21,6 +21,48 @@ namespace spic {
              */
             Camera(const Color& backgroundColor, double aspectWidth, double aspectHeight);
 
+            /**
+             *
+             * @return
+             * @sharedapi
+             */
+            const Color& BackgroundColor() const;
+
+            /**
+             *
+             * @return
+             * @sharedapi
+             */
+            void BackgroundColor(const Color& newBackgroundColor);
+
+            /**
+             *
+             * @return
+             * @sharedapi
+             */
+            double AspectWidth() const;
+
+            /**
+             *
+             * @return
+             * @sharedapi
+             */
+            void AspectWidth(double newAspectWidth);
+
+            /**
+             *
+             * @return
+             * @sharedapi
+             */
+            double AspectHeight() const;
+
+            /**
+             *
+             * @return
+             * @sharedapi
+             */
+            void AspectHeight(double newAspectHeight);
+
         private:
             Color backgroundColor;
             double aspectWidth;
