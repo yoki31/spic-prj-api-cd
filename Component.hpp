@@ -31,15 +31,14 @@ namespace spic {
             void Active(bool flag) { active = flag; }
 
             /**
-             * @brief The parent of this component
-             * @param parent the current parent
+             * @brief Get the GameObject this component belongs to.
              * @sharedapi
              */
             std::weak_ptr<spic::GameObject> GameObject() const;
 
             /**
-             * @brief The parent of this component
-             * @param parent the new parent
+             * @brief Set the GameObject this component belongs to.
+             * @param gameObject the GameObject this component belongs to.
              * @sharedapi
              */
             void GameObject(std::weak_ptr<spic::GameObject> gameObject);
