@@ -18,12 +18,15 @@ namespace spic {
         public:
             /**
              * @brief Constructor.
+             * @param tag The tag for the game object.
+             * @param layer The layer for the game object.
              * @param backgroundColor The background color of the horizon in the camera.
              * @param aspectWidth The aspect width of the camera.
              * @param aspectHeight The aspect width of the camera.
              * @sharedapi
              */
-            Camera(const Color& backgroundColor, double aspectWidth, double aspectHeight);
+            Camera(const std::string& name, int layer, const Color& backgroundColor,
+                   double aspectWidth, double aspectHeight);
 
             /**
              * Get the current background color.
