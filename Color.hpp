@@ -115,22 +115,22 @@ namespace spic {
 
             /**
              * @brief Set the RGB values of the color
-             * @param r The red part of the color
-             * @param g The green part of the color
-             * @param b The blue part of the color
+             * @param red The red part of the color
+             * @param green The green part of the color
+             * @param blue The blue part of the color
              * @sharedapi
              */
-            void SetColor(double r, double g, double b);
+            void SetColor(double red, double green, double blue);
 
             /**
              * @brief Set the RGBA values of the color
-             * @param r The red part of the color
-             * @param g The green part of the color
-             * @param b The blue part of the color
-             * @param a The alpha part of the color
+             * @param red The red part of the color
+             * @param green The green part of the color
+             * @param blue The blue part of the color
+             * @param alpha The alpha part of the color
              * @sharedapi
              */
-            void SetColor(double r, double g, double b, double a);
+            void SetColor(double red, double green, double blue, double alpha);
             
             /**
              * @brief The red part of the color
