@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['camera_184',['Camera',['../classspic_1_1Camera.html#a09fab1d6009bf3d0e4fcad83505bfa97',1,'spic::Camera']]],
+  ['camera_184',['Camera',['../classspic_1_1Camera.html#a31b42c8e2ecef2510bb6e85dc06fb2e0',1,'spic::Camera']]],
   ['children_185',['Children',['../classspic_1_1GameObject.html#ad4f19015137692dfd69f985110de3b01',1,'spic::GameObject']]],
   ['circlecollider_186',['CircleCollider',['../classspic_1_1CircleCollider.html#a0cfa6e9bb41a6cc1c1c30274e49a5016',1,'spic::CircleCollider::CircleCollider()'],['../classspic_1_1CircleCollider.html#a52f7748c341d8d1e6fd6215c8543ecda',1,'spic::CircleCollider::CircleCollider(double radius)']]],
   ['click_187',['Click',['../classspic_1_1Button.html#ac3ba0b578b7e12b076ac0364377b9da2',1,'spic::Button']]],

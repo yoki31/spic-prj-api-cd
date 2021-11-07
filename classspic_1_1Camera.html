@@ -93,9 +93,9 @@ Collaboration diagram for spic::Camera:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a09fab1d6009bf3d0e4fcad83505bfa97"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspic_1_1Camera.html#a09fab1d6009bf3d0e4fcad83505bfa97">Camera</a> (const <a class="el" href="classspic_1_1Color.html">Color</a> &amp;backgroundColor, double aspectWidth, double aspectHeight)</td></tr>
-<tr class="memdesc:a09fab1d6009bf3d0e4fcad83505bfa97"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="classspic_1_1Camera.html#a09fab1d6009bf3d0e4fcad83505bfa97">More...</a><br /></td></tr>
-<tr class="separator:a09fab1d6009bf3d0e4fcad83505bfa97"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31b42c8e2ecef2510bb6e85dc06fb2e0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspic_1_1Camera.html#a31b42c8e2ecef2510bb6e85dc06fb2e0">Camera</a> (const std::string &amp;name, int layer, const <a class="el" href="classspic_1_1Color.html">Color</a> &amp;backgroundColor, double aspectWidth, double aspectHeight)</td></tr>
+<tr class="memdesc:a31b42c8e2ecef2510bb6e85dc06fb2e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="classspic_1_1Camera.html#a31b42c8e2ecef2510bb6e85dc06fb2e0">More...</a><br /></td></tr>
+<tr class="separator:a31b42c8e2ecef2510bb6e85dc06fb2e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab2192a8d00c06da4017fdf7c7e714bb7"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classspic_1_1Color.html">Color</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspic_1_1Camera.html#ab2192a8d00c06da4017fdf7c7e714bb7">BackgroundColor</a> () const</td></tr>
 <tr class="separator:ab2192a8d00c06da4017fdf7c7e714bb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac19faaea243af52a6c39bd9c29de5ce0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspic_1_1Camera.html#ac19faaea243af52a6c39bd9c29de5ce0">BackgroundColor</a> (const <a class="el" href="classspic_1_1Color.html">Color</a> &amp;newBackgroundColor)</td></tr>
@@ -215,8 +215,8 @@ Additional Inherited Members</h2></td></tr>
 <dl class="section attention"><dt>Attention</dt><dd>This is a symbol defined by the original SPIC API and should be kept as-is.<br  />
 </dd></dl>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a09fab1d6009bf3d0e4fcad83505bfa97"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a09fab1d6009bf3d0e4fcad83505bfa97">&#9670;&nbsp;</a></span>Camera()</h2>
+<a id="a31b42c8e2ecef2510bb6e85dc06fb2e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a31b42c8e2ecef2510bb6e85dc06fb2e0">&#9670;&nbsp;</a></span>Camera()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -224,6 +224,18 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">spic::Camera::Camera </td>
           <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>layer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">const <a class="el" href="classspic_1_1Color.html">Color</a> &amp;&#160;</td>
           <td class="paramname"><em>backgroundColor</em>, </td>
         </tr>
@@ -250,6 +262,8 @@ Additional Inherited Members</h2></td></tr>
 <p>Constructor. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
+    <tr><td class="paramname">name</td><td>The name of the game object. </td></tr>
+    <tr><td class="paramname">layer</td><td>The layer of the game object. </td></tr>
     <tr><td class="paramname">backgroundColor</td><td>The background color of the horizon in the camera. </td></tr>
     <tr><td class="paramname">aspectWidth</td><td>The aspect width of the camera. </td></tr>
     <tr><td class="paramname">aspectHeight</td><td>The aspect width of the camera. </td></tr>
