@@ -19,6 +19,8 @@ namespace spic {
      */
     class GameObject {
         public:
+            virtual ~GameObject() = default;
+
             /**
              * @brief Finds a GameObject by name and returns it.
              * @param name The name of the GameObject you want to find.
