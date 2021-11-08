@@ -123,6 +123,13 @@ namespace spic {
             void AddComponent(std::shared_ptr<T> component);
 
             /**
+             * @brief Removes a component from a game object.
+             * @param component Reference to the component.
+             * @sharedapi
+             */
+            void RemoveComponent(std::shared_ptr<Component> component);
+
+            /**
              * @brief Get the first component of the specified type. Must be
              *        a valid subclass of Component.
              * @return Pointer to Component instance.
