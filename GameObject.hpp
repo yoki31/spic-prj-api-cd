@@ -217,7 +217,7 @@ namespace spic {
              * @return A reference to the transform
              * @sharedapi
              */
-            spic::Transform& Transform() const;
+            spic::Transform& Transform();
 
             /**
              * @brief Returns a const reference to the transform of this GameObject
