@@ -217,7 +217,7 @@ namespace spic {
              * @return A reference to the transform
              * @sharedapi
              */
-            spic::Transform& Transform();
+            spic::Transform& Transform() const;
 
             /**
              * @brief Returns a const reference to the transform of this GameObject
@@ -231,7 +231,7 @@ namespace spic {
              * @return A weak pointer to the parent.
              * @sharedapi
              */
-            std::weak_ptr<GameObject> Parent();
+            std::weak_ptr<GameObject> Parent() const;
 
             /**
              * The parent of this GameObject.
