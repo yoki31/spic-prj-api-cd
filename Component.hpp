@@ -17,6 +17,16 @@ namespace spic {
      */
     class Component {
         public:
+            /**
+             * @brief constructor for Component
+             * @sharedapi
+             */
+            Component();
+
+            /**
+             * @brief destructor for Component
+             * @sharedapi
+             */
             virtual ~Component() = default;
 
             /**
