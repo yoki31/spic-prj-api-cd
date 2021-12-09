@@ -45,7 +45,7 @@ namespace spic {
          * @return The subtraction of the two Transforms.
          * @sharedapi
          */
-        Transform& operator+=(const Transform& rhs);
+        Transform& operator-=(const Transform& rhs);
 
         /**
          * @brief Operator to add a Point to a Transform.

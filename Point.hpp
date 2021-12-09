@@ -44,7 +44,7 @@ namespace spic
          * @return The subtraction of the two points.
          * @sharedapi
          */
-        Point& operator+=(const Point& rhs);
+        Point& operator-=(const Point& rhs);
     };
 
 }
