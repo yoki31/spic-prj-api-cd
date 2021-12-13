@@ -22,8 +22,8 @@ namespace spic
     };
 }
 
-#if __has_include("Utils/QueueUtil_templates.hpp")
-#include "Utils/QueueUtil_templates.hpp"
+#if __has_include("QueueUtil_templates.hpp")
+#include "QueueUtil_templates.hpp"
 #endif
 
 #endif //SPIC_QUEUEUTIL_HPP
