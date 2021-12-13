@@ -1,5 +1,5 @@
-#ifndef SPIC_GAME_FILEMANAGER_HPP
-#define SPIC_GAME_FILEMANAGER_HPP
+#ifndef SPIC_FILEMANAGER_HPP
+#define SPIC_FILEMANAGER_HPP
 
 #include "../Structs/FolderFile.hpp"
 
@@ -38,4 +38,4 @@ namespace spic
     };
 }
 
-#endif //SPIC_GAME_FILEMANAGER_HPP
+#endif //SPIC_FILEMANAGER_HPP

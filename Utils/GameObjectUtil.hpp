@@ -1,5 +1,5 @@
-#ifndef SPIC_SPIC_SPICOBJECTUTIL_HPP
-#define SPIC_SPIC_SPICOBJECTUTIL_HPP
+#ifndef SPIC_SPICOBJECTUTIL_HPP
+#define SPIC_SPICOBJECTUTIL_HPP
 
 #include <memory>
 #include "GameObject.hpp"

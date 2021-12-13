@@ -1,5 +1,5 @@
-#ifndef SPIC_SPIC_RANDOMUTIL_HPP
-#define SPIC_SPIC_RANDOMUTIL_HPP
+#ifndef SPIC_RANDOMUTIL_HPP
+#define SPIC_RANDOMUTIL_HPP
 
 #include <random>
 
@@ -49,4 +49,4 @@ namespace spic
     };
 }
 
-#endif //SPIC_SPIC_RANDOMUTIL_HPP
+#endif //SPIC_RANDOMUTIL_HPP

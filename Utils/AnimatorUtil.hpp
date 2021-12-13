@@ -1,5 +1,5 @@
-#ifndef SPIC_SPIC_ANIMATORUTIL_HPP
-#define SPIC_SPIC_ANIMATORUTIL_HPP
+#ifndef SPIC_ANIMATORUTIL_HPP
+#define SPIC_ANIMATORUTIL_HPP
 
 #include "Sprite.hpp"
 
@@ -49,4 +49,4 @@ namespace spic
     };
 }
 
-#endif //SPIC_SPIC_ANIMATORUTIL_HPP
+#endif //SPIC_ANIMATORUTIL_HPP

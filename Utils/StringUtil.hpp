@@ -1,5 +1,5 @@
-#ifndef SPIC_SPIC_STRINGHELPER_H
-#define SPIC_SPIC_STRINGHELPER_H
+#ifndef SPIC_STRINGHELPER_H
+#define SPIC_STRINGHELPER_H
 
 #include <string>
 #include <vector>

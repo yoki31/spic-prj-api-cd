@@ -1,5 +1,5 @@
-#ifndef SPIC_SPIC_QUEUEUTIL_HPP
-#define SPIC_SPIC_QUEUEUTIL_HPP
+#ifndef SPIC_QUEUEUTIL_HPP
+#define SPIC_QUEUEUTIL_HPP
 
 #include <queue>
 #include <stack>
@@ -18,24 +18,9 @@ namespace spic
              * @return A reversed queue.
              */
             template<class T>
-            static void Reverse(std::queue<T>& queue)
-            {
-                std::stack<T> stack;
-
-                while (!queue.empty())
-                {
-                    stack.push(queue.front());
-                    queue.pop();
-                }
-
-                while (!stack.empty())
-                {
-                    queue.push(stack.top());
-                    stack.pop();
-                }
-            }
+            static void Reverse(std::queue<T>& queue);
     };
 }
 
 
-#endif //SPIC_SPIC_QUEUEUTIL_HPP
+#endif //SPIC_QUEUEUTIL_HPP

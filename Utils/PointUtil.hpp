@@ -1,5 +1,5 @@
-#ifndef SPIC_SPIC_POINTUTIL_HPP
-#define SPIC_SPIC_POINTUTIL_HPP
+#ifndef SPIC_POINTUTIL_HPP
+#define SPIC_POINTUTIL_HPP
 
 #include <Point.hpp>
 
@@ -63,4 +63,4 @@ namespace spic
     };
 }
 
-#endif //SPIC_SPIC_POINTUTIL_HPP
+#endif //SPIC_POINTUTIL_HPP
