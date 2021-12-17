@@ -33,7 +33,7 @@ namespace spic {
             virtual void OnUpdate();
 
             /**
-             * @brief TODO
+             * @brief Triggers after all Update functions have been called.
              * @sharedapi
              */
             virtual void OnLateUpdate() { }
