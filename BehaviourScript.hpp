@@ -9,7 +9,9 @@
 #endif
 
 namespace spic {
-
+    /**
+     * @brief Base class for script running in the game.
+     */
     class BehaviourScript : public Component {
         public:
             /**
@@ -29,6 +31,12 @@ namespace spic {
              * @spicapi
              */
             virtual void OnUpdate();
+
+            /**
+             * @brief Triggers after all Update functions have been called.
+             * @sharedapi
+             */
+            virtual void OnLateUpdate() { }
 
             /**
              * @brief Sent when another object enters a trigger collider
